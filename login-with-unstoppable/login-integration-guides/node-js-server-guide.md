@@ -47,7 +47,7 @@ yarn add express-session express express-async-errors morgan
 ```
 
 ```shell npm
-yarn intall --save express-session express express-async-errors morgan
+npm install --save express-session express express-async-errors morgan
 ```
 
 ## Step 3: Setup @uauth/node Library
