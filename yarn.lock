@@ -1601,27 +1601,17 @@
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-"@redocly/ajv@^8.6.4":
-  version "8.6.4"
-  resolved "https://registry.yarnpkg.com/@redocly/ajv/-/ajv-8.6.4.tgz#94053e7a9d4146d1a4feacd3813892873f229a85"
-  integrity sha512-y9qNj0//tZtWB2jfXNK3BX18BSBp9zNR7KE7lMysVHwbZtY392OJCjm6Rb/h4UHH2r1AqjNEHFD6bRn+DqU9Mw==
-  dependencies:
-    fast-deep-equal "^3.1.1"
-    json-schema-traverse "^1.0.0"
-    require-from-string "^2.0.2"
-    uri-js "^4.2.2"
-
-"@redocly/developer-portal@^1.1.0-beta.123":
-  version "1.1.0-beta.123"
-  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.123.tgz#9884c44dee92c704637a28339ba4910f825d946c"
-  integrity sha512-zDbBVK8KwtKEK/eGPy1zmGYjtaj/9+5CAuqcbyRadXD4UZ+7maUZEltDz/zuIOLr+RejaSHW9IPZJSp1+P+3kw==
+"@redocly/developer-portal@^1.1.0-beta.127":
+  version "1.1.0-beta.127"
+  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.127.tgz#094db7475d2a832e0c99ab6ce5fd3b0048dc7d6f"
+  integrity sha512-WVABRMQ8H1SPI6aA5cy2aM3I/CpnrcjLJtkEltkraCfS7b2Zo8gAy42tSwjHaHSP26Yphpz7Mc2xNmBjbnmxjA==
   dependencies:
     "@mdx-js/mdx" "0.19.0"
     "@mdx-js/tag" "0.20.3"
     "@redocly/gatsby-plugin-manifest" "3.3.2"
     "@redocly/gatsby-remark-images" "4.2.0"
-    "@redocly/openapi-core" "1.0.0-beta.123"
-    "@redocly/reference-docs" "2.39.1"
+    "@redocly/openapi-core" "1.0.2"
+    "@redocly/reference-docs" "2.42.1"
     babel-plugin-react-html-attrs "^3.0.5"
     babel-plugin-styled-components "^1.12.0"
     buffer "^6.0.3"
@@ -1765,10 +1755,10 @@
     unist-util-select "^1.5.0"
     unist-util-visit-parents "^2.1.2"
 
-"@redocly/openapi-core@1.0.0-beta.123":
-  version "1.0.0-beta.123"
-  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.123.tgz#0c29ae9fabe5f143f571caf608a7d025f41125db"
-  integrity sha512-W6MbUWpb/VaV+Kf0c3jmMIJw3WwwF7iK5nAfcOS+ZwrlbxtIl37+1hEydFlJ209vCR9HL12PaMwdh2Vpihj6Jw==
+"@redocly/openapi-core@1.0.0-beta.131":
+  version "1.0.0-beta.131"
+  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.131.tgz#c5a9c106dcb372bdc8bf479094493a155cc9f2ca"
+  integrity sha512-Dri3Oad3NwcyKgtkYz6hyJO+bAD531ppPrPxNo9Xfqza9LkUtJ6Vi2E6OSRGTWb94iTyEkhrJPbJE56/PbaKhQ==
   dependencies:
     "@redocly/ajv" "^8.11.0"
     "@types/node" "^14.11.8"
@@ -1781,12 +1771,12 @@
     pluralize "^8.0.0"
     yaml-ast-parser "0.0.43"
 
-"@redocly/openapi-core@1.0.0-beta.97":
-  version "1.0.0-beta.97"
-  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.97.tgz#324ed46e9a9aee4c615be22ee348c53f7bb5f180"
-  integrity sha512-3WW9/6flosJuRtU3GI0Vw39OYFZqqXMDCp5TLa3EjXOb7Nm6AZTWRb3Y+I/+UdNJ/NTszVJkQczoa1t476ekiQ==
+"@redocly/openapi-core@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.2.tgz#773b48a98fe67383499a5af80a62175c451b387c"
+  integrity sha512-53dzhmG2bsi/8rcAAgBKk9ZLMR035VHgN7oSM3+BM4UAIoNBg6lMC/ChHSf9zO+GrX5qtuWVPqHhjjMti3SAlQ==
   dependencies:
-    "@redocly/ajv" "^8.6.4"
+    "@redocly/ajv" "^8.11.0"
     "@types/node" "^14.11.8"
     colorette "^1.2.0"
     js-levenshtein "^1.1.6"
@@ -1797,12 +1787,12 @@
     pluralize "^8.0.0"
     yaml-ast-parser "0.0.43"
 
-"@redocly/reference-docs@2.39.1":
-  version "2.39.1"
-  resolved "https://registry.yarnpkg.com/@redocly/reference-docs/-/reference-docs-2.39.1.tgz#4fa53aba762745e28badfa047f36d005856b0cf4"
-  integrity sha512-qsaU1hEZ6N5zLtZIZFRwqnfhTJ2t994/T4hECVjid7ijZ6jWYbvoBn4hIPW5SbKtvmvpXNEfzPF45rVxkvdFdQ==
+"@redocly/reference-docs@2.42.1":
+  version "2.42.1"
+  resolved "https://registry.yarnpkg.com/@redocly/reference-docs/-/reference-docs-2.42.1.tgz#a57677435d8d472aba18410e607e338a4e706905"
+  integrity sha512-spgbqzVMjxFhSBRchT7cO6Dq53wQWGvaKeqHWWVMZJU2tdeGOJCvuZiE1Om4QBiygcprWoLa8UwayGXRHjpZ5Q==
   dependencies:
-    "@redocly/openapi-core" "1.0.0-beta.97"
+    "@redocly/openapi-core" "1.0.0-beta.131"
     "@redocly/vscode-json-languageservice" "3.4.9"
     "@wojtekmaj/enzyme-adapter-react-17" "^0.6.2"
     codemirror "^5.65.0"

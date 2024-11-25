@@ -11,7 +11,7 @@
     "generate": "node --experimental-loader=ts-node/esm .templates/smart-contracts-renderer cns && node --experimental-loader=ts-node/esm .templates/smart-contracts-renderer uns"
   },
   "dependencies": {
-    "@redocly/developer-portal": "^1.1.0-beta.123",
+    "@redocly/developer-portal": "^1.1.0-beta.127",
     "polished": "^4.2.2",
     "react": "^17.0.0"
   },
