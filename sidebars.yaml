@@ -99,6 +99,8 @@
     - group: Guides
       expanded: false
       pages:
+        - label: Sell Domains
+          page: domain-distribution-and-management/guides/sell-domains.md
         - label: Implement Webhooks
           page: domain-distribution-and-management/guides/implementing-webhooks.md
         - label: On-chain Buy
